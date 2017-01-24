@@ -20,15 +20,7 @@
                         <th>RequiredDate</th>
                     </tr>
                 </thead>
-                <tfooter>
-                        <tr>
-                            <th>OrderId</th>
-                            <th>CustomerId</th>
-                            <th>EmployeeId</th>
-                            <th>OrderDate</th>
-                            <th>RequiredDate</th>
-                        </tr>
-                    </tfooter>
+                
                 <tbody>
         </HeaderTemplate>
         <ItemTemplate>
@@ -41,6 +33,15 @@
             </tr>
         </ItemTemplate>
         <FooterTemplate>
+            <tfooter>
+                        <tr>
+                            <th>OrderId</th>
+                            <th>CustomerId</th>
+                            <th>EmployeeId</th>
+                            <th>OrderDate</th>
+                            <th>RequiredDate</th>
+                        </tr>
+                    </tfooter>
             </tbody>
                 </table>
         </FooterTemplate>
