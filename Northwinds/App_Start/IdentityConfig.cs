@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Net;
+using SendGrid;
+using System.Configuration;
+using System.Diagnostics;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -7,32 +11,26 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Northwinds.Models;
-using SendGrid;
-using System.Net;
-using System.Configuration;
-using System.Diagnostics;
 
 namespace Northwinds
 {
+ 
     public class EmailService : IIdentityMessageService
     {
-
-        /*public Task SendAsync(IdentityMessage message)
-        {
-            // Plug in your email service here to send an email.
-            return Task.FromResult(0);
-        } */
-
-
+        
         public async Task SendAsync(IdentityMessage message)
         {
-            // Plug in your email service here to send an email.
             await configSendGridasync(message);
+            
+
         }
 
+        // Use NuGet to install SendGrid (Basic C# client lib) 
         private async Task configSendGridasync(IdentityMessage message)
         {
-            var myMessage = new SendGridMessage();
+            
+            
+            var myMessage = new SendGrid.SendGridMessage();
             myMessage.AddTo(message.Destination);
             myMessage.From = new System.Net.Mail.MailAddress(
                                 "Royce@contoso.com", "Royce Sellars (Contoso Admin)");
@@ -59,7 +57,6 @@ namespace Northwinds
                 await Task.FromResult(0);
             }
         }
-
     }
 
 
