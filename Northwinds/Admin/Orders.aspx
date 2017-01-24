@@ -7,13 +7,14 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Dashboard</a>
+                    <a class="navbar-brand" href="Dashboard.aspx">Dashboard</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Employees</a></li>
-                    <li><a href="#">Suppliers</a></li>
-                    <li class="active"><a href="#">Orders</a></li>
+                    <li><a href="Customers.aspx">Customers</a></li>
+                    <li><a href="Employees.aspx">Employees</a></li>
+                    <li><a href="Suppliers.aspx">Suppliers</a></li>
+                    <li><a href="Products.aspx">Products</a></li>
+                    <li class="active"><a href="Orders.aspx">Orders</a></li>
                 </ul>
             </div>
         </nav>
