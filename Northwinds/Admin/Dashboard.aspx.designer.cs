@@ -13,21 +13,21 @@ namespace Northwinds.Admin {
     public partial class Dashboard {
         
         /// <summary>
-        /// SqlDataSource1 control.
+        /// ReportViewer1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewer1;
         
         /// <summary>
-        /// rep control.
+        /// report control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rep;
+        protected global::Microsoft.PowerBI.AspNet.WebForms.UI.WebControls.Report report;
     }
 }

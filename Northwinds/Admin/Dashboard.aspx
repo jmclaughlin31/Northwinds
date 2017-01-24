@@ -1,4 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="Northwinds.Admin.Dashboard" %>
+
+<%@ Register Assembly="Microsoft.ReportViewer.WebForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
         <div class="row">
@@ -18,50 +20,10 @@
             </div>
         </nav>
     </div>
+    <rsweb:ReportViewer ID="ReportViewer1" runat="server" ProcessingMode="Remote"></rsweb:ReportViewer>
 
+    <powerbi:Report runat="server" ID="report"    />
 
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString='<%$ ConnectionStrings:DefaultConnection %>' SelectCommand="select * from northwinds.customers;"></asp:SqlDataSource>
-    <div class="row">
-        <asp:Repeater ID="rep" runat="server" DataSourceID="SqlDataSource1">
-            <HeaderTemplate>
-                <table id="example" class="display" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th>CustomerID</th>
-                            <th>ContactTitle</th>
-                            <th>ContactName</th>
-                            <th>CompanyName</th>
-                            <th>Phone</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-            </HeaderTemplate>
-            <ItemTemplate>
-                <tr>
-                    <td><%# Eval("CustomerID") %></td>
-                    <td><%# Eval("ContactTitle") %></td>
-                    <td><%# Eval("ContactName") %></td>
-                    <td><%# Eval("CompanyName") %></td>
-                    <td><%# Eval("Phone") %></td>
-                </tr>
-            </ItemTemplate>
-            <FooterTemplate>
-                <tfooter>
-                        <tr>
-                            <th>OrderId</th>
-                            <th>CustomerId</th>
-                            <th>EmployeeId</th>
-                            <th>OrderDate</th>
-                            <th>RequiredDate</th>
-                        </tr>
-                    </tfooter>
-                </tbody>
-                </table>
-            </FooterTemplate>
-        </asp:Repeater>
-
-    </div>
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" type="text/css" />
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
