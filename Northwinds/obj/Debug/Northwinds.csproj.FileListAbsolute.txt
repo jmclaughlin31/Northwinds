@@ -64,3 +64,7 @@ C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.Owin.Security
 C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\obj\Debug\Northwinds.csprojResolveAssemblyReference.cache
 C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\obj\Debug\Northwinds.dll
 C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\obj\Debug\Northwinds.pdb
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\SendGrid.CSharp.HTTP.Client.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\SendGrid.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\System.Net.Http.Formatting.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\System.Net.Http.Formatting.xml
