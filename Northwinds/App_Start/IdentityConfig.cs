@@ -7,23 +7,32 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Northwinds.Models;
-using SendGrid;
+/*using SendGrid;
 using System.Net;
 using System.Configuration;
 using System.Diagnostics;
-
+*/
 namespace Northwinds
 {
     public class EmailService : IIdentityMessageService
     {
+
+        public Task SendAsync(IdentityMessage message)
+        {
+            // Plug in your email service here to send an email.
+            return Task.FromResult(0);
+        }
+
+        /*
         public async Task SendAsync(IdentityMessage message)
         {
             // Plug in your email service here to send an email.
             await configSendGridasync(message);
         }
+        */
     }
 
-    private async Task configSendGridasync(IdentityMessage message)
+  /*  private async Task configSendGridasync(IdentityMessage message)
     {
         var myMessage = new SendGridMessage();
         myMessage.AddTo(message.Destination);
@@ -52,6 +61,8 @@ namespace Northwinds
             await Task.FromResult(0);
         }
     }
+    */
+
 
     public class SmsService : IIdentityMessageService
     {
