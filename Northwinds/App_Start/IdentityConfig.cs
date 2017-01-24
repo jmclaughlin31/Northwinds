@@ -33,7 +33,7 @@ namespace Northwinds
             var myMessage = new SendGrid.SendGridMessage();
             myMessage.AddTo(message.Destination);
             myMessage.From = new System.Net.Mail.MailAddress(
-                                "Royce@contoso.com", "Royce Sellars (Contoso Admin)");
+                                "admindonotreply@northwinds.com", "Jody McLaughlin (Northwinds Administrator)");
             myMessage.Subject = message.Subject;
             myMessage.Text = message.Body;
             myMessage.Html = message.Body;
