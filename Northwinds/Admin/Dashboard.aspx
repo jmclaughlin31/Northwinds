@@ -20,9 +20,7 @@
             </div>
         </nav>
     </div>
-    <rsweb:ReportViewer ID="ReportViewer1" runat="server" ProcessingMode="Remote"></rsweb:ReportViewer>
 
-    <powerbi:Report runat="server" ID="report"    />
 
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" type="text/css" />
