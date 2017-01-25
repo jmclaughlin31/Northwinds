@@ -216,6 +216,7 @@
     <Content Include="Admin\Customers.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Admin\Employees.aspx" />
+    <Content Include="Admin\ManageAccounts.aspx" />
     <Content Include="Admin\Products.aspx" />
     <Content Include="Admin\Suppliers.aspx" />
     <Content Include="Contact.aspx" />
@@ -624,6 +625,13 @@
     </Compile>
     <Compile Include="Admin\Employees.aspx.designer.cs">
       <DependentUpon>Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageAccounts.aspx.cs">
+      <DependentUpon>ManageAccounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageAccounts.aspx.designer.cs">
+      <DependentUpon>ManageAccounts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
