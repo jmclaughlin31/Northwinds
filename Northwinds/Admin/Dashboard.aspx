@@ -20,8 +20,9 @@
             </div>
         </nav>
     </div>
-    <powerbi:Token runat="server" AccessToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXIiOiIwLjIuMCIsIndjbiI6Ik5vcnRod2luZHNQb3dlckJJIiwid2lkIjoiNGIzOTYzMzQtZDI2My00N2NlLWFiZTMtNjgxNThiNjQ5MTViIiwicmlkIjoiYTAxOWEyNDgtYWIyOC00YjM5LTg5MzItMjQ0Zjg0YjA0NGY1IiwiaXNzIjoiUG93ZXJCSVNESyIsImF1ZCI6Imh0dHBzOi8vYW5hbHlzaXMud2luZG93cy5uZXQvcG93ZXJiaS9hcGkiLCJleHAiOjE0ODU1Mzg3NDksIm5iZiI6MTQ4NTUzNTE0OX0.Cws7nGC1Sr_-v2VobDdKO4n2fpgmSbSpTuJcYnFokrQ"></powerbi:Token> 
-    <powerbi:Report runat="server" ID="report" EmbedUrl="https://embedded.powerbi.com/appTokenReportEmbed?reportId=a019a248-ab28-4b39-8932-244f84b044f5" ReportId="a019a248-ab28-4b39-8932-244f84b044f5" />
+    <powerbi:Token runat="server" AccessToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXIiOiIwLjIuMCIsIndjbiI6Ik5vcnRod2luZHNQb3dlckJJIiwid2lkIjoiNGIzOTYzMzQtZDI2My00N2NlLWFiZTMtNjgxNThiNjQ5MTViIiwicmlkIjoiYTAxOWEyNDgtYWIyOC00YjM5LTg5MzItMjQ0Zjg0YjA0NGY1IiwiaXNzIjoiUG93ZXJCSVNESyIsImF1ZCI6Imh0dHBzOi8vYW5hbHlzaXMud2luZG93cy5uZXQvcG93ZXJiaS9hcGkiLCJleHAiOjE0ODU1Mzg3NDksIm5iZiI6MTQ4NTUzNTE0OX0.Cws7nGC1Sr_-v2VobDdKO4n2fpgmSbSpTuJcYnFokrQ">
+            <powerbi:Report runat="server" ID="report" EmbedUrl="https://embedded.powerbi.com/appTokenReportEmbed?reportId=a019a248-ab28-4b39-8932-244f84b044f5" ReportId="a019a248-ab28-4b39-8932-244f84b044f5" />
+        </powerbi:Token> 
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" type="text/css" />
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
