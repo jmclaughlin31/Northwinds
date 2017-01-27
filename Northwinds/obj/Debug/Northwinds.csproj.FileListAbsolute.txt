@@ -148,3 +148,14 @@ C:\Users\Jody\Documents\NorthwindsTest\Northwinds\bin\Microsoft.Owin.Security.OA
 C:\Users\Jody\Documents\NorthwindsTest\Northwinds\obj\Debug\Northwinds.csprojResolveAssemblyReference.cache
 C:\Users\Jody\Documents\NorthwindsTest\Northwinds\obj\Debug\Northwinds.dll
 C:\Users\Jody\Documents\NorthwindsTest\Northwinds\obj\Debug\Northwinds.pdb
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.PowerBI.Api.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.PowerBI.AspNet.WebForms.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.PowerBI.Core.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\SendGrid.SmtpApi.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\SendGridMail.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Jody\Documents\GitHub\Northwinds\Northwinds\bin\System.IdentityModel.Tokens.Jwt.xml
